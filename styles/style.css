@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.main-page {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(27, 29, 45);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 .image-option {
   width: 20vw;
   height: auto;
@@ -12,32 +20,41 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.header2 {
-  color: rgb(121, 101, 166);
+.stories {
+  color: rgb(226, 226, 226);
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
+}
+
+/*Kim Dokja Theme*/
+body.kim-dokja {
+  background-color: rgb(85, 85, 85);
 }
 
 .description {
   margin: 20px;
   padding: 20px;
-  border: 2px solid rgb(121, 101, 166);
+  border: 3px solid rgb(162, 5, 5);
   border-radius: 10px;
-  background-color: rgb(173, 189, 255);
+  background-color: rgb(34, 34, 34);
   font-family: "Times New Roman", Times, serif;
-  color: rgb(80, 0, 130);
+  color: rgb(255, 255, 255);
   text-align: right;
   margin-bottom: 2px;
 }
 
+.description-link {
+  color: rgb(198, 198, 198);
+}
+
 .player-container {
   font-family: "Times New Roman", Times, serif;
-  background-color: rgb(173, 189, 255);
+  background-color: rgb(34, 34, 34);
   height: 75vh;
   width: 25vw;
   margin: 5vh auto;
   padding: 3vw;
-  border: 2px solid rgb(121, 101, 166);
+  border: 5px solid rgb(115, 0, 0);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -63,14 +80,14 @@
 .song-title {
   font-size: 24px;
   font-weight: bold;
-  color: black;
+  color: rgb(255, 255, 255);
   margin-bottom: 5px;
 }
 
 .artist-name {
   font-size: 14px;
   font-weight: normal;
-  color: rgb(57, 57, 57);
+  color: rgb(255, 255, 255);
 }
 
 .progress-section {
@@ -91,7 +108,7 @@
 .progress-fill {
   width: 30%;
   height: 100%;
-  background: rgb(174, 174, 249);
+  background: rgb(166, 0, 0);
   border-radius: 3px;
   position: relative;
 }
@@ -99,7 +116,7 @@
 .progress-dot {
   width: 14px;
   height: 14px;
-  background: rgb(130, 130, 249);
+  background: rgb(115, 0, 0);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   position: absolute;
@@ -110,7 +127,7 @@
 .time-info {
   display: flex;
   justify-content: space-between;
-  color: rgb(57, 57, 57);
+  color: rgb(255, 255, 255);
   font-size: 14px;
 }
 
@@ -127,7 +144,6 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
-  color: rgb(57, 57, 57);
 }
 
 .control-buttons-bottom {
@@ -135,11 +151,11 @@
   justify-content: center;
   align-items: center;
   gap: 15vw;
-  color: rgb(57, 57, 57);
 }
 
 .control-buttons-top button {
-  background: rgb(130, 130, 249);
+  color: rgb(255, 255, 255);
+  background: rgb(166, 0, 0);
   border: none;
   border-radius: 50%;
   padding: 7px;
@@ -148,6 +164,7 @@
 }
 
 .control-buttons-bottom button {
+  color: rgb(255, 255, 255);
   background: none;
   border: none;
   border-radius: 50%;
@@ -158,4 +175,64 @@
   font-size: 24px;
   padding: 10px 20px;
   transform: scale(1.2);
+}
+
+/*Uriel Theme*/
+body.uriel {
+  background-color: rgb(33, 28, 28);
+}
+
+.selection-photo {
+  display: flex;
+  margin: 5vh auto;
+  width: 30vw;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#reminder-container {
+  margin: 5vh auto;
+  padding-bottom: 25px;
+  border: 3px solid rgb(239, 235, 157);
+  border-radius: 10px;
+  background-color: rgb(85, 85, 85);
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 40vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reminder-header {
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.reminder-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  justify-items: center;
+}
+
+.reminder-buttons button {
+  color: rgb(255, 255, 255);
+  background: rgb(255, 182, 92);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 80px;
+}
+
+#time-reminder {
+  width: 15vw;
+  margin: auto;
+  display: none;
 }
