@@ -23,11 +23,22 @@
         <button onclick="setReminder('Study')">Study</button>
         <button onclick="setReminder('Custom')">Custom</button>
       </div>
-    </section>
 
-    <section id="time-reminder">
-      <input type="time" id="reminder-time" />
-      <button id="goToTime">Set Reminder</button>
+      <div id="custom-input">
+        <input
+          type="text"
+          id="custom-reminder"
+          placeholder="Enter custom reminder..."
+        />
+        <button id="custom-confirm" onclick="confirmCustom()">Next</button>
+      </div>
+
+      <div id="time-input">
+        <input type="time" id="reminder-time" />
+        <button onclick="finalizeReminder()" id="finalize-reminder">
+          Set Reminder
+        </button>
+      </div>
     </section>
     <script src="../interactive/Uriel.js"></script>
   </body>

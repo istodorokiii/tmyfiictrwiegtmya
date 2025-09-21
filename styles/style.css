@@ -193,7 +193,7 @@ body.uriel {
 
 #reminder-container {
   margin: 5vh auto;
-  padding-bottom: 25px;
+  padding: 25px;
   border: 3px solid rgb(239, 235, 157);
   border-radius: 10px;
   background-color: rgb(85, 85, 85);
@@ -235,4 +235,49 @@ body.uriel {
   width: 15vw;
   margin: auto;
   display: none;
+}
+
+#time-input {
+  display: none;
+}
+
+#custom-input {
+  display: none;
+  margin-top: 15px;
+}
+
+#custom-input input {
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+#custom-confirm {
+  color: rgb(255, 255, 255);
+  background: rgb(255, 182, 92);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+#reminder-time {
+  margin-top: 15px;
+  border-radius: 25px;
+  color: rgb(255, 255, 255);
+  padding: 3px 25px;
+  margin-right: 5px;
+}
+
+#finalize-reminder {
+  color: rgb(255, 255, 255);
+  background: rgb(255, 182, 92);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 15px;
 }
