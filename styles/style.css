@@ -7,9 +7,14 @@
 .main-page {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  color: rgb(27, 29, 45);
+  color: rgb(255, 255, 255);
   margin-top: 20px;
   margin-bottom: 10px;
+}
+#main-body {
+  background-image: url(../assets/images/StarsBackground.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .image-option {
@@ -24,6 +29,8 @@
   color: rgb(226, 226, 226);
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /*Kim Dokja Theme*/
@@ -178,7 +185,7 @@ body.kim-dokja {
 }
 
 /*Uriel Theme*/
-body.uriel {
+.uriel {
   background-color: rgb(33, 28, 28);
 }
 
@@ -231,12 +238,6 @@ body.uriel {
   width: 80px;
 }
 
-#time-reminder {
-  width: 15vw;
-  margin: auto;
-  display: none;
-}
-
 #time-input {
   display: none;
 }
@@ -267,7 +268,7 @@ body.uriel {
 #reminder-time {
   margin-top: 15px;
   border-radius: 25px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 3px 25px;
   margin-right: 5px;
 }
