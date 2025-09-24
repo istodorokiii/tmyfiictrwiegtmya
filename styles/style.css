@@ -184,6 +184,13 @@ body.kim-dokja {
   transform: scale(1.2);
 }
 
+.pause {
+  font-size: 24px;
+  padding: 10px 20px;
+  transform: scale(1.2);
+  display: none;
+}
+
 /*Uriel Theme*/
 .uriel {
   background-color: rgb(33, 28, 28);
