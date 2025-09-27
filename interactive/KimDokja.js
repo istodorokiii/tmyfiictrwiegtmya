@@ -1,17 +1,19 @@
 const music = document.getElementById("eternity");
 const playButton = document.querySelector(".play");
-const pauseButton = document.querySelector(".pause"); // make sure this exists in HTML!
+const pauseButton = document.querySelector(".pause");
 
 playButton.addEventListener("click", () => {
-  music.paused;
-  music.play();
-  playButton.style.display = "none";
-  pauseButton.style.display = "block";
+  if (music.paused) {
+    music.play();
+    playButton.style.display = "none";
+    pauseButton.style.display = "inline-block";
+  }
 });
 
 pauseButton.addEventListener("click", () => {
-  !music.paused;
-  music.pause();
-  pauseButton.style.display = "none";
-  playButton.style.display = "block";
+  if (!music.paused) {
+    music.pause();
+    pauseButton.style.display = "none";
+    playButton.style.display = "inline-block";
+  }
 });

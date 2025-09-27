@@ -34,7 +34,7 @@
 }
 
 /*Kim Dokja Theme*/
-body.kim-dokja {
+#kim-dokja {
   background-color: rgb(85, 85, 85);
 }
 
@@ -70,7 +70,7 @@ body.kim-dokja {
   align-items: center;
 }
 
-.album-art img {
+#album-art img {
   width: 15vw;
   height: auto;
   border-radius: 10px;
@@ -79,7 +79,7 @@ body.kim-dokja {
   margin-bottom: 15px;
 }
 
-.song-info {
+#song-info {
   text-align: center;
   margin-bottom: 15px;
 }
@@ -97,12 +97,12 @@ body.kim-dokja {
   color: rgb(255, 255, 255);
 }
 
-.progress-section {
+#progress-section {
   margin-bottom: 15px;
   width: 100%;
 }
 
-.progress-bar {
+#progress-bar {
   width: 100%;
   height: 4px;
   background-color: rgb(255, 255, 255);
@@ -112,7 +112,7 @@ body.kim-dokja {
   position: relative;
 }
 
-.progress-fill {
+#progress-fill {
   width: 30%;
   height: 100%;
   background: rgb(166, 0, 0);
@@ -120,7 +120,7 @@ body.kim-dokja {
   position: relative;
 }
 
-.progress-dot {
+#progress-dot {
   width: 14px;
   height: 14px;
   background: rgb(115, 0, 0);
@@ -131,7 +131,7 @@ body.kim-dokja {
   right: -7px;
 }
 
-.time-info {
+#time-info {
   display: flex;
   justify-content: space-between;
   color: rgb(255, 255, 255);
@@ -192,11 +192,11 @@ body.kim-dokja {
 }
 
 /*Uriel Theme*/
-.uriel {
+#uriel {
   background-color: rgb(33, 28, 28);
 }
 
-.selection-photo {
+#uriel-photo {
   display: flex;
   margin: 5vh auto;
   width: 30vw;
