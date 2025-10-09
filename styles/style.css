@@ -33,6 +33,13 @@
   margin-bottom: 30px;
 }
 
+.quote {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /*Kim Dokja Theme*/
 #kim-dokja {
   background-color: rgb(16, 16, 16);
@@ -289,4 +296,8 @@
   padding: 5px 10px;
   cursor: pointer;
   margin-top: 15px;
+}
+
+#yoo-joonghyuk {
+  background-color: rgb(16, 16, 16);
 }
